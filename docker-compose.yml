@@ -1,0 +1,6 @@
+version: "3"
+services:
+  graalvm:
+    image: ghcr.io/graalvm/graalvm-ce:latest
+    volumes:
+      - ./:/graalvm
